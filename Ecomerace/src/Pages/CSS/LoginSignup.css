@@ -1,0 +1,95 @@
+.loginsignup{
+  width: 100%;
+min-height: 90vh;
+background: #fce3fe ;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+
+}
+.loginsignup-container{
+  background-color: white;
+  width: 100%;
+  max-width: 50rem;
+  padding: 5rem 3rem;
+  
+  border-radius: 1rem;
+}
+.loginsignup-container h1{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin: 1.5rem auto;
+}
+.loginsignup-fields{
+display: flex;
+flex-direction: column;
+width: 100%;
+gap: 2rem;
+margin-top: 2.5rem;
+}
+.loginsignup-fields input{
+  height: 4.5rem;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  outline: none;
+}
+.loginsignup-container button{
+  width: 100%;
+  height: 4.5rem;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  background: #ff4141;
+  color: white;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.loginsignup-container button:hover{
+background: #e63939;
+}
+.loginsignup-login{
+  margin-top: 1.8rem;
+font-size: 1.3rem;
+font-weight: 500;
+text-align: center;
+color: #5c5c5c;
+}
+.loginsignup-login span{
+  font-size: 1.4rem;
+  color: #ff4141;
+  font-weight: bold;
+}
+.loginsignup-agree{
+display: flex;
+align-items: center;
+font-size: 1.3rem;
+margin-top: 2rem;
+gap: 1rem;
+color: #5c5c5c;
+font-weight: 500;
+line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

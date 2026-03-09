@@ -1,0 +1,43 @@
+
+.item{
+  border: 1px solid #eee;
+  width: 30rem;
+  height: auto;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  font-family: sans-serif;
+}
+.item:hover{
+  box-shadow: 0 0.4rem 2rem rgba(0,0,0,0.1);
+  transform: translateY(-0.5rem);
+}
+.item img{
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+  margin: 0 auto;
+}
+.item p{
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
+.item-prices{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.item-prices-new{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: red;
+  margin-right: 1rem;
+}
+.item-prices-old{
+  font-size: 1.4rem;
+  color: #333;
+}

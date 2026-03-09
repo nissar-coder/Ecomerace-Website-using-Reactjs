@@ -1,0 +1,31 @@
+.relatedproducts{
+  padding: 4rem 6rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+.relatedproducts h1{
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.relatedproducts hr{
+  width: 10rem;
+  margin: auto;
+  background-color: #222;
+  height: 0.3rem;
+  border-radius: 2rem;
+}
+.relatedproduct-item{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-top: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
